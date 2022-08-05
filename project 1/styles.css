@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header { 
+    display: flex;
+    width: 90%;
+    margin: auto;
+    align-items: center;   
+}
+.logo-container,
+ .nav-links,
+  .cart{
+    display: flex;
+  }
+
+    
+.logo{
+    font-weight: 800;
+    margin: 10px;
+}
+.logo-container
+{
+    flex: 1;
+}
+    nav {
+        flex: 1;
+    
+    }
+    .nav-links{
+        justify-content: space-around;
+        list-style: none;
+        color: lightsalmon;
+        text-decoration: none;
+    }
+    .cart {
+       
+        flex: 2;
+        justify-content: flex-end;
+    
+    }
+    .presentation{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        min-height: 80vh;
+        align-items: center;
+    }
+    .introduction{
+        flex: 1;
+    }
+.intro-text 
+h1{
+    margin: 0px 0px 10px 0px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    background: linear-gradient(to right, pink, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-text p{
+    margin: 30px 0px 0px 0px;
+    padding-top: 4px;
+    font-size: 20px;
+    color: lightcoral;
+}
+.intro-text h2{
+    margin: 15px 0px 0px 0px;
+}
+
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+.cta-select{
+    border: 2px solid purple;
+    background: transparent;
+    color: purple;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.cta-add{
+    border: 2px solid purple;
+    background: purple;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+    .cover{
+        flex: 1;
+        animation: drop 3s ease;
+    }
+    .cover img{
+        height: 80vh;
+        filter: drop-shadow(0px 5px 3px grey);
+    }
+    
